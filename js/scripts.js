@@ -16,6 +16,11 @@ function kyleReplies(){
 
 		if (luckyNum == 3){
 			document.getElementById('demo').innerHTML = "Fuck.";
+
+			// Hide 'Ask Kyle a Question'
+			var heading = document.getElementById('askKyle');
+			heading.style.display = 'none';
+			
 		} else {
 
 	// grab the user's input
